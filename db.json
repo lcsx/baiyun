@@ -1,0 +1,24 @@
+{
+  "login":{"userId":"user-lcs","password":"lcs"},
+  "getlist3":{
+		"code":200,
+		"navListData":[{
+			"title":"用户管理","isShow":1,"list":[{"title":"用户管理","url":"api/xxx","isShow":0},{"title":"角色管理","url":"api/xxx","isShow":1}]
+		},{
+			"title":"医院信息管理","isShow":1,"list":[{"title":"科室1","url":"api/xxx","isShow":1},{"title":"科室2","url":"api/xxx","isShow":0}]
+		}]
+	},
+	"leftNav":[
+				{"title":"用户管理","list":[{"title":"用户管理","path":"user"},{"title":"角色管理","path":"roles"},{"title":"权限管理","path":"rights"}]},
+				{"title":"医院信息管理管理","list":[{"title":"科室","path":"department"},{"title":"病区","path":"area"},{"title":"病房","path":"ward"},{"title":"病床","path":"bed"}]},
+				{"title":"治疗管理","list":[{"title":"治疗项目","path":"treatment"},{"title":"收费项目","path":"pay"},{"title":"治疗方法","path":"method"},{"title":"治疗频率","path":"frequency"},{"title":"治疗室","path":"room"},{"title":"设备管理","path":"equipment"},{"title":"部位","path":"parts"}]},
+				{"title":"系统配置","list":[{"title":"系统配置","path":"config"}]}
+			],
+	"userList":{"code":200,
+	            "userList":[
+	            	            {"roleName":"rolename1","name":"name1","sex":"sex1","role":"role1","position":"position1","username":"username1","password":"password1"},
+	            	            {"roleName":"rolename2","name":"name1","sex":"sex2","role":"role2","position":"position2","username":"username2","password":"password2"},
+	            	            {"roleName":"rolename3","name":"name1","sex":"sex3","role":"role3","position":"position3","username":"username3","password":"password3"}
+	            	]
+	            }
+}
